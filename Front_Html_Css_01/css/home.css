@@ -1,0 +1,43 @@
+.alteraCanteiro{
+    border-radius: 10px;
+    background:#5D5FEF;
+    width: 128px;
+    height: 25px;
+    flex-shrink: 0;
+    color: white;
+    margin-left: auto;
+}
+
+.divMedidas{
+    justify-content: space-between;
+}
+
+.iconsGreenCards i{
+    font-size: 30px;
+}
+
+.cardOptionsMenu i{
+    font-size: 24px;
+    margin-right: 12px;
+}
+
+.cardInfosData{
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.canteiroPrincipal {
+    display: grid;
+    grid-template-columns: 118px 180px;
+}
+
+.canteiroPrincipal .iconCanteiro {
+    text-align: center;
+}
+
+.canteiroPrincipal .iconCanteiro {
+   font-size: 50px;
+   margin: 5px;
+}
