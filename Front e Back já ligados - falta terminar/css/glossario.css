@@ -1,0 +1,22 @@
+.cardGlossario{
+    justify-content: center;
+    gap: 30px;
+    position: inherit;
+    margin-top: 0;
+    border-radius: 0 0 12px 12px;
+}
+
+.cardGlossario i{
+    font-size: 40px;
+}
+
+.divAddItem{
+    justify-content: space-between;
+}
+
+.cardCultivo{
+    border: 2px solid #0E4D56;
+    border-radius: 12px;
+    padding: 8px;
+    margin: 10px 0;
+}

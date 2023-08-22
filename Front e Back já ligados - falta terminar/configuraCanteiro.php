@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Cultivo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/glossario.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="container">
+        <!-- <div>
+            <div class="addTwoItens card cardLightGreen cardGlossario">
+                <i class="fa-solid fa-carrot iconCanteiro"></i>
+                <div>
+                    <h3>Cenoura</h3>
+                    <p>Leguminosa</p>
+                </div>
+            </div>
+        </div> -->
+        <div class="mainContent">
+            <div>
+                <div class="addTwoItens divAddItem">
+                    <p>Horário da Irrigação</p>
+                    <button>+</button>
+                </div>
+                <div class="addTwoItens divAddItem cardCultivo">
+                    <div>
+                        <h3>10:40</h3>
+                        <p>seg</p>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+            <div>
+                <div class="addTwoItens divAddItem">
+                    <p>Umidade do solo</p>
+                    <button>+</button>
+                </div>
+                <div class="addTwoItens divAddItem cardCultivo">
+                    <h3>70%</h3>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p>Descricao</p>
+                </div>
+                <div>
+                   <textarea></textarea>
+                </div>
+            </div>
+            <div>
+                <button class="newBtn">Salvar</button>
+            </div>
+        </div>
+        <div class="navFooter">
+            <a href="index.php">
+                <button><i class="fa-solid fa-house"></i></button>
+            </a>
+            <button><i class="fa-solid fa-droplet"></i></button>
+            <button><i class="fa-solid fa-chart-line"></i></button>
+            <button><i class="fa-solid fa-bookmark"></i></button>
+            <button><i class="fa-brands fa-pagelines"></i></button>
+            <button><i class="fa-solid fa-gear"></i></button>
+        </div>
+    </section>
+</body>
+</html>

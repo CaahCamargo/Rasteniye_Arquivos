@@ -1,0 +1,13 @@
+.filtarCultivos{
+    background-color: light;
+}
+
+.cardOptionsTipoPlanta{
+    border: 1px solid #0E4D56;
+    color: #0E4D56;
+}
+
+.cardOptionsTipoPlanta i:last-child{
+    justify-items: end;
+    margin-left: auto;
+}
