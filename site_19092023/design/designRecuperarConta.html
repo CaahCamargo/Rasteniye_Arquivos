@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esqueci Minha Senha</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/recuperarConta.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="container">
+        <div class="returnPage">
+            <a href="login.php">
+                <Button class="backFiles"><i class="fa-solid fa-caret-left"></i></Button>
+            </a>
+        </div>
+        <div class="itens">
+            <div class="divPresentation">
+                <p>RASTENIYE</p>
+                <p>FAÇA SEU CADASTRO</p>
+            </div>
+            <div class="recuperaItens">
+                <p>Insira seu E-mail abaixo para a verificação e inserção de nova senha.</p>
+                <div id="recupera">
+                    <form method="post" action="php/cadastro.php"> 
+                        <input id="email" name="usuemailario" required="required" type="email" placeholder="E-mail" />
+                        <div>
+                            <input id="senha" name="senha" required="required" type="password" placeholder="Nova Senha" />
+                            <input id="confirmaSenha" name="confirmaSenha" required="required" type="password" placeholder="Confirme sua senha" />
+                        </div>
+                        <input type="submit" value="Recuperar" color=#0064FF name = "btnRecupera" class="acesso"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

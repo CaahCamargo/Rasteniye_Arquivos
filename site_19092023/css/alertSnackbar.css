@@ -1,0 +1,103 @@
+/* Sucess */
+#alertSucess  {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -140px;
+    background-color: #f0f6e4;
+    color:#73874b;
+    text-align: center;
+    border-radius: 12px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 60px;
+}
+
+#alertSucess.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Error */
+#alertError {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -140px;
+    background-color: #f6e4e4;
+    color:#874b4b;
+    text-align: center;
+    border-radius: 12px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 60px;
+}
+
+#alertError.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+/* Border Animation */
+div {
+    position: relative;
+    margin: auto;
+    width: 160px;
+    text-align: center;
+    
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border: 2px solid #bed198;
+      /* transition: all .4s; */
+      animation: clippath 3s infinite linear;
+      border-radius: 12px;
+    }
+}
+
+@keyframes clippath {
+    0%,
+    100% {
+        clip-path: inset(0 0 95% 0);
+    }
+    
+    25% {
+        clip-path: inset(0 95% 0 0);
+    }
+
+    50% {
+        clip-path: inset(95% 0 0 0);
+    }
+    
+    75% {
+        clip-path: inset(0 0 0 95%);
+    }
+}

@@ -1,0 +1,17 @@
+.descricaoCultivo{
+    text-align: center;
+}
+
+.descricaoCultivo textarea{
+    resize: none;
+}
+
+.descricaoCultivo label{
+    float: left;
+    font-weight: bold;
+    margin: 0 0 8px 8px;
+}
+
+textarea{
+    resize: none;
+}

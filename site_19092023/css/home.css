@@ -1,0 +1,145 @@
+.alteraCanteiro{
+    border-radius: 6px;
+    background:#5D5FEF;
+    width: 128px;
+    height: 25px;
+    flex-shrink: 0;
+    color: white;
+    margin-left: auto;
+    box-shadow: 0 0 4px #cbcbcb;
+}
+
+.logout{
+    border-radius: 6px;
+    background: #f6f3e4;
+    height: 25px;
+    color: #101010;
+    padding: 0px 15px;
+    margin-left: 16px;
+    box-shadow: 0 0 4px #cbcbcb;
+}
+
+.divMedidas{
+    justify-content: space-between;
+}
+
+.iconsGreenCards i{
+    font-size: 30px;
+}
+
+.cardOptionsMenu i{
+    font-size: 24px;
+    margin-right: 12px;
+}
+
+.cardInfosData{
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.canteiroPrincipal {
+    display: grid;
+    grid-template-columns: 235px 70px;
+}
+
+.canteiroPrincipal p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+
+.canteiroPrincipal span{
+    font-family: 'Concert One', cursive;
+    font-size: 22px;
+}
+
+.canteiroPrincipal .iconCanteiro {
+    text-align: center;
+}
+
+.canteiroPrincipal .iconCanteiro {
+   font-size: 50px;
+   margin: 5px;
+}
+
+.cardHeroHome{
+    background: url(../img/IMG_7241_03.png);
+    background-size: 330px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: -180px;
+    border-bottom: 1px solid lightgray;
+    border-radius: 0 0 20px 20px;
+    padding: 30px;
+    height: 120px;
+    margin-top: -20px;
+}
+
+.cardHeroHome p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.cardHeroHome span{
+    font-family: 'Concert One', cursive;
+    font-size: 22px;
+}
+
+.statusCard{
+    border: 1px solid #206c77; 
+    border-radius: 12px;
+    padding: 4px 12px; 
+    background: #206c77; 
+    display: -webkit-inline-box;
+    margin-top: 18px;
+}
+
+.gridCuidados{
+    display: grid;
+    grid-template-columns: 260px auto;
+}
+
+.dataCultivo{
+    font-size: 15px;
+}
+
+.dataCultivo i{
+    border-radius: 100%;
+    background-color: #206c77;
+    padding: 10px;
+    color: white;
+    margin: 5px 0;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    align-items: center;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.cardIrrigacao{
+    border: 1px solid;
+    padding: 12px 0;
+    border-radius: 20px 0 0 20px;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    background: #f6ede3;
+    color: #36543a;
+    font-weight: 900;
+}
+
+.cardIrrigacao img{
+    display: block;
+    margin: 12px 35%;
+    align-items: center;
+    text-align: center;
+}
+
+
+.infoSobre{
+    padding: 0 20px;
+    text-align: justify;
+}

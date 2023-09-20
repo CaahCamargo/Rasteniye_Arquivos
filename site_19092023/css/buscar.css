@@ -1,0 +1,17 @@
+.buscar {
+    text-align: center;
+}
+
+.card {
+    margin: 6px !important;
+}
+
+.cardOptionsTipoPlanta{
+    border: 1px solid #0E4D56;
+    color: #0E4D56;
+}
+
+.cardOptionsTipoPlanta i:last-child{
+    justify-items: end;
+    margin-left: auto;
+}

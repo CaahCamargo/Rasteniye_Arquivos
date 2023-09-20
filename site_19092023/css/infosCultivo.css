@@ -1,0 +1,50 @@
+.cardCanteiros{
+    border: 1px solid;
+    margin: 2px 0px 2px 30px;
+    background: #0e4d56;
+    border-radius: 40px 0 0 40px;
+    padding: 16px;
+    color: white;
+}
+
+.gridCardsCanteiro{
+    display: grid;
+    grid-template-columns: 120px 200px;
+}
+
+.gridCardsCanteiro img{
+    width: 130px;
+}
+
+.dataCardCanteiro{
+    padding: 18px 0
+}
+
+.dataCardCanteiro p:first-child{
+    font-size: 21px; 
+    font-weight: 600;
+}
+
+.dataCardCanteiro p:last-child{
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.dataCardCanteiro i{
+    float: right; 
+    display: flex; 
+    font-size: 20px; 
+    margin-right: 6px;
+}
+
+.statusCard{
+    border: 1px solid #206c77; 
+    border-radius: 12px;
+    padding: 4px 12px; 
+    background: #206c77; 
+    display: -webkit-inline-box;
+}
+
+    
+    
+    

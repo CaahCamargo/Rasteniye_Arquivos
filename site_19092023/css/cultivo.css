@@ -1,0 +1,4 @@
+.cardOptionsCanteiro i:last-child{
+    justify-items: end;
+    margin-left: auto;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Cultivo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/localizaDispositivo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="container">
+        <div class="mainContent">
+            <div class="addDispositivo">
+               <h3>Localize seu Dispositivo</h3>
+               <p>Abaixo insira o codigo <b>serial</b> do seu disposivo Arduíno</p>
+               <label for="codSerial">Codigo do Dispositivo</label>
+               <input placeholder="Código" name="codSerial">
+               <label for="nome">Insira um nome para o Dispositivo</label>
+               <input placeholder="Nome" name="nome">
+               <label for="obs">Descrição do Dispositivo</label>
+                <textarea aria-placeholder="Observações" name="obs"></textarea>
+            </div>
+            <div>
+                <button class="newBtn">Adicionar Dispositivo</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <footer>
+            <my-footer-menu></my-footer-menu>
+        </footer>
+    </section>
+    
+    <!-- SCRIPTS -->
+    <script src="../components/footer.js" defer></script>
+</body>
+</html>

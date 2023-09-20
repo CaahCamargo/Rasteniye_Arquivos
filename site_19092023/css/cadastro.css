@@ -1,0 +1,36 @@
+.divPresentation{
+    color: #0C4F53;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.divPresentation p:first-child{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.divPresentation p:last-child{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.inputsLogin{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.acesso{
+    border-radius: 14px;
+    background: #0c4f53;
+    width: 238px;
+    height: 36px;
+    color: white;
+    font-weight: bold;
+}
